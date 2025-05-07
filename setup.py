@@ -10,9 +10,9 @@ setup(
     ],
     entry_points = {
         "osdag.plugins":[
-            "sample_plugin2"= "sample_plugin_2:Action"
+            "sample_plugin2= sample_plugin_2:SamplePlugin2"
         ]
     },
-    python_requires>=">=3.7",
+    python_requires=">=3.7",
 
 )
